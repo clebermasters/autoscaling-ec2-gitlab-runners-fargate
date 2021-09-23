@@ -27,7 +27,7 @@ else
 fi
 
 # Register
-# All Variables are defined and provide by the Cloud Formation Template. And their values are store on the Fargate Task Definition once created.
+# All Variables are defined and provided by the Cloud Formation Template. And their values are stored on the Fargate Task Definition once created.
 gitlab-runner register --executor docker+machine \
 --docker-tlsverify \
 --docker-volumes '/var/run/docker.sock:/var/run/docker.sock' \
